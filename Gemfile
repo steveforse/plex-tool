@@ -64,26 +64,26 @@ group :development, :test do
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
-  
+
   # Additional Rubocop extensions
   gem "rubocop-performance", require: false
   gem "rubocop-rails", require: false
-  
+
   # Standard Ruby style guide
   gem "standard", ">= 1.35.1", require: false
 
   # RSpec for testing
   gem "rspec-rails"
-  
+
   # Factory Bot for test data
   gem "factory_bot_rails"
-  
+
   # Faker for fake data
   gem "faker"
-  
+
   # WebMock for HTTP request stubbing
   gem "webmock"
-  
+
   # Shoulda matchers for RSpec
   gem "shoulda-matchers"
 end
@@ -91,7 +91,7 @@ end
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
-  
+
   # Better error pages
   gem "better_errors"
   gem "binding_of_caller"
